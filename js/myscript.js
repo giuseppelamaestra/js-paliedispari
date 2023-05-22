@@ -40,10 +40,13 @@ const number = parseInt(prompt("enter a value from 1 to 5"))
 
 
 
-function randomNumber(num){
-    const randomNumber = Math.floor(Math.random() * 5 ) + 1
+function randomNumGenerator(num){
     
-    return randomNumber
+    return Math.floor(Math.random() * 5 ) + 1
 }
 
-console.log(randomNumber())
+const RandomNumber = (randomNumGenerator())
+
+const sum = number + RandomNumber
+
+console.log(sum)
