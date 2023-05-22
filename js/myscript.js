@@ -35,8 +35,15 @@ if(Word == ReverseWord){
 //Dichiariamo chi ha vinto.
 
 const choice = prompt("choose even or odd") 
-const number = parseInt(prompt("enter a value"))
+const number = parseInt(prompt("enter a value from 1 to 5"))
 
-const randomNumber = Math.floor(Math.random() * 5 ) + 1
 
-console.log(randomNumber)
+
+
+function randomNumber(num){
+    const randomNumber = Math.floor(Math.random() * 5 ) + 1
+    
+    return randomNumber
+}
+
+console.log(randomNumber())
