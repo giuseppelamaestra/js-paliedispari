@@ -50,3 +50,16 @@ const RandomNumber = (randomNumGenerator())
 const sum = number + RandomNumber
 
 console.log(sum)
+
+function EvenorOdd(val){
+     
+    if(sum % 2 == 0){
+        return even
+    } 
+      else {
+        return odd
+      }
+
+}
+
+if
