@@ -26,3 +26,17 @@ if(Word == ReverseWord){
   } else {
     console.log('The word is not palindrome');
 }
+
+
+//Pari e Dispari
+//L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
+//Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+//Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+//Dichiariamo chi ha vinto.
+
+const choice = prompt("choose even or odd") 
+const number = parseInt(prompt("enter a value"))
+
+const randomNumber = Math.floor(Math.random() * 5 ) + 1
+
+console.log(randomNumber)
